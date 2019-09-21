@@ -1,0 +1,124 @@
+.container{
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #FAFAFA;
+}
+.col-md-6{
+    position: absolute;
+    width: 80%;
+    height: 580px;
+    left: 60px;
+    top: 160px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 5px 0px 0px 5px;
+}
+.col-md-7{
+    position: absolute;
+    width: 45%;
+    height: 580px;
+    left: 600px;
+    top: 160px;
+
+    background: linear-gradient(0deg, rgba(143, 148, 247, 0.5), rgba(143, 148, 247, 0.5)), url("img.jpg");
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 0px 5px 5px 0px;
+}
+.sign {
+    position: absolute;
+    width: 16%;
+    height: 38px;
+    left: 152px;
+    top: 50px;
+
+    font-family: Segoe UI;
+    font-size: 23.252px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    color: #1C1C1B;
+}
+.Username{
+    position: absolute;
+    width: 30%;
+    height: 26px;
+    left: 80px;
+    top: 200px;
+
+    font-family: Segoe UI;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+    color: #1C1C1B;
+    border: none;
+    outline: none;
+    border-bottom: gray 1px solid;
+
+    opacity: 0.7;
+}
+.Password{
+    position: absolute;
+    width: 30%;
+    height: 26px;
+    left: 80px;
+    top: 270px;
+
+    font-family: Segoe UI;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+    color: #1C1C1B;
+    border: none;
+    outline: none;
+    border-bottom: gray 1px solid;
+
+    opacity: 0.7;
+}
+.Sign_up{
+    position: absolute;
+    width: 50%;
+    height: 25px;
+    left: 80px;
+    top: 310px;
+
+    font-family: Segoe UI;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+
+    color: #1C1C1B;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: orangered;
+}
+.submit-control{
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    left: 130px;
+    top: 420px;
+    border-radius: 20px;
+
+    font-family: Segoe UI;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: black;
+    color: white;
+}
+.submit-control:hover{
+    background-color:green;
+    cursor: pointer;
+}
